@@ -40,6 +40,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## project structure
 
+```
 📁 my-awesome-nextjs-project
 |
 |_ 📁 app
@@ -52,3 +53,4 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 |_ 📄 README.md
 |_ 📄 tailwind.config.ts
 |_ 📄 tsconfig.json
+```
