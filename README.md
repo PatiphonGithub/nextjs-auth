@@ -1,6 +1,26 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Initialize Project
+
+```bash
+npx create-next-app@latest
+
+Need to install the following packages:
+create-next-app@14.2.14
+Ok to proceed? (y) y
+
+√ What is your project named? ... next-auth
+√ Would you like to use TypeScript? Yes
+√ Would you like to use ESLint? Yes
+√ Would you like to use Tailwind CSS? Yes
+√ Would you like to use `src/` directory? No
+√ Would you like to use App Router? Yes
+√ Would you like to customize the default import alias (@/*)? No
+
+npm install firebase
+```
+
+## Developing
 
 First, run the development server:
 
@@ -20,17 +40,19 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## project structure
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+📁 my-awesome-nextjs-project
+|
+|_ 📁 app
+|_ 📄 .env
+|_ 📄 .eslintrc.json
+|_ 📄 .gitignore
+|_ 📄 next.config.mjs
+|_ 📄 package.json
+|_ 📄 postcss.config.mjs
+|_ 📄 README.md
+|_ 📄 tailwind.config.ts
+|_ 📄 tsconfig.json
+```
