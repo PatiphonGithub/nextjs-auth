@@ -16,8 +16,6 @@ Ok to proceed? (y) y
 √ Would you like to use `src/` directory? No
 √ Would you like to use App Router? Yes
 √ Would you like to customize the default import alias (@/*)? No
-
-npm install firebase
 ```
 
 ## Developing
